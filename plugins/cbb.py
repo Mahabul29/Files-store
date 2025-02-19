@@ -8,7 +8,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>𝐑𝐀𝐕𝐀𝐀𝐍𝐀</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://t.me/+nDTaoJGRKJcxYmZl'>Library</a>\n○ Request Group : <a href='https://t.me/Kr_Movie2'>Click here</a>\n○ Channel : @Kr_Movie2</b>",
+            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>moon</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://t.me/+nDTaoJGRKJcxYmZl'>Library</a>\n○ movie channel : <a href='https://t.me/Hindi_Dub_Netflix_Movies'>Click here</a>\n○ Channel : @Hindi_Dub_Animes_Official</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
